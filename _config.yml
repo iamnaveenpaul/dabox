@@ -43,15 +43,15 @@ paginate: 12 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: GrivaSchoolOfCoding # jekyll-seo-tag > Owners twitter username
-author: GrivaSchoolOfCoding # jekyll-seo-tag > default author
+  username: dabox # jekyll-seo-tag > Owners twitter username
+author: dabox # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: Griva School of Coding # jekyll-seo-tag > real name
+  name: Dabox # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/GrivaSchoolOfCoding
-    - https://www.facebook.com/GrivaSchoolOfCoding
-    - https://www.linkedin.com/in/GrivaSchoolOfCoding
-    - https://github.com/GrivaSchoolOfCoding
+    - https://twitter.com/dabox
+    - https://www.facebook.com/dabox
+    - https://www.linkedin.com/in/dabox
+    - https://github.com/dabox
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -86,16 +86,16 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Griva School of Coding" # Site name or title, also used in jekyll-seo-tag
+title: "Dabox" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 logo: "/assets/logos/logo-transparent.png" # Site logo, also used in jekyll-seo-tag
-description: "Griva School of Coding | Learn MEAN stack, JavaScript, NodeJs, MongoDb, Express Js, Java, SpringBoot, Angular, Angular Js, React Js in Bangalore" # Site description and default description, also used in jekyll-seo-tag
-url: "https://griva.in" # Site url, also used in jekyll-seo-tag
+description: "Dabox | Home cooked meals in Bangalore" # Site description and default description, also used in jekyll-seo-tag
+url: "https://dabox.in" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/GrivaSchoolOfCoding/alembic"
-email: "hello@griva.in"
-disqus: "griva" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-google_analytics: 'UA-152053875-1'
+repo: "https://github.com/dabox/alembic"
+email: "hello@dabox.in"
+# disqus: "griva" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+google_analytics: 'UA-159115192-1'
 # google_analytics_anonymize_ip: ''
 # service_worker: false # Will turn off the service worker if set to false
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
@@ -115,26 +115,26 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Blog
-  url: /blog/
-- title: Topics
-  url: /categories/
-- title: EMI Calculator
-  url: /emi-calculator/
-- title: Search
-  url: /search/
+# - title: Blog
+#   url: /blog/
+# - title: Topics
+#   url: /categories/
+# - title: EMI Calculator
+#   url: /emi-calculator/
+# - title: Search
+#   url: /search/
 #- title: Fork Alembic
-#  url: https://github.com/GrivaSchoolOfCoding/alembic
+#  url: https://github.com/dabox/alembic
 
 navigation_footer:
-- title: Griva School of Coding
-  url: https://griva.in
+- title: Dabox
+  url: https://dabox.in
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/GrivaSchoolOfCoding
-  LinkedIn: https://www.linkedin.com/in/GrivaSchoolOfCoding
-  GitHub: https://github.com/GrivaSchoolOfCoding
-  link: https://griva.in
+  Twitter: https://twitter.com/dabox
+  LinkedIn: https://www.linkedin.com/in/dabox
+  GitHub: https://github.com/dabox
+  link: https://dabox.in
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
